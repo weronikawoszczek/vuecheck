@@ -23,7 +23,7 @@
 	exports.app = new Vue({
 
 		// the root element that will be compiled
-		el: '.todoapp',
+		el: '.checklist',
 
 		// app initial state
 		data: {
