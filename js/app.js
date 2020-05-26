@@ -22,10 +22,9 @@
 
 	exports.app = new Vue({
 
-		// the root element that will be compiled
+
 		el: '.checklist',
 
-		// app initial state
 		data: {
 			todos: todoStorage.fetch(),
 			newTodo: '',
@@ -33,7 +32,6 @@
 			visibility: 'all'
 		},
 
-		// watch todos change for localStorage persistence
 		watch: {
 			todos: {
 				deep: true,
